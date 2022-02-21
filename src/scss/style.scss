@@ -1,0 +1,26 @@
+@import 'fonts.scss';
+@import 'global.scss';
+
+$color1: #4b4b4b;
+
+.body{
+    color: $color1;
+    font-family: 'Poppins';
+    color: #4b4b4b;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sign{
+    margin-left: 60vw;
+}
+
+.sign__title{
+    max-width: 210px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #4b4b4b;
+}

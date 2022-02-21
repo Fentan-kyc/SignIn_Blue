@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title":"Sign In"
+})
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="sign">
+                <h1 class="sign__title">Sign Into <br> Your account</h1>
+
+                <form class="sign__form" action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li><label for="login">Company ID</label>
+                            <input type="text" id="login" name="user_login">
+                        </li>
+                        <li><label for="password">Password</label>
+                            <input type="text" id="password" name="user_password">
+                        </li>
+                        <li class="button">
+                            <button type="submit">Remember me</button>
+                        </li>
+                    </ul>
+                </form>
+
+            </div>
+        </main>
+        <script src="js/script.min.js"></script>
+    </div>
+</body>
+
+</html>
